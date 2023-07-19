@@ -144,14 +144,12 @@ const About = () => {
             <p>
               Fast-forward to today, and I’ve had the privilege of working at{' '}
               <a href="https://usafrikagov.com/">a non-profit PanAfrican Organization</a>,{' '}
-              <a href="https://milsat.africa/">a start-up</a>,{' '}
-              <a href="https://www.apple.com/">a huge corporation</a>, and{' '}
-              <a href="https://scout.camd.northeastern.edu/">a student-led design studio</a>. <br />{' '}
-              <br /> My main focus these days is prioritizing building accessible and inclusive
-              digital experiences, ensuring that websites and applications I work on cater to
-              diverse users. By emphasizing accessibility, adhering to web standards, and leveraging
-              assistive technologies, I aim to create a seamless and inclusive user experience for
-              all.
+              <a href="https://milsat.africa/">a start-up</a>, and{' '}
+              <a href="https://devcareer.io/">a non-profit organization</a>. <br /> <br /> My main
+              focus these days is prioritizing building accessible and inclusive digital
+              experiences, ensuring that websites and applications I work on cater to diverse users.
+              By emphasizing accessibility, adhering to web standards, and leveraging assistive
+              technologies, I aim to create a seamless and inclusive user experience for all.
             </p>
 
             {/* <p>
