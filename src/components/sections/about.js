@@ -143,6 +143,10 @@ const About = () => {
 
             <p>
               Fast-forward to today, and I’ve had the privilege of working at{' '}
+              <a href="https://sterling.ng/">
+                a forward-thinking innovation-driven financial institution
+              </a>
+              , <a href="https://withconvexity.com/">a blockchain-focused technology company</a>,{' '}
               <a href="https://usafrikagov.com/">a non-profit PanAfrican Organization</a>,{' '}
               <a href="https://milsat.africa/">a start-up</a>, and{' '}
               <a href="https://devcareer.io/">a non-profit organization</a>. <br /> <br /> My main
