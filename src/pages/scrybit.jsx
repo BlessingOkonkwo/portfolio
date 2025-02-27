@@ -43,7 +43,7 @@ const photos = [
       />
     ),
     alt: 'Photo 3',
-    fullSrc: '../images/scrybit/scrybit3.png',
+    fullSrc: '/images/scrybit/scrybit3.png',
   },
   {
     Component: () => (
@@ -57,7 +57,7 @@ const photos = [
       />
     ),
     alt: 'Photo 4',
-    fullSrc: '../images/scrybit/scrybit4.png',
+    fullSrc: '/images/scrybit/scrybit4.png',
   },
   {
     Component: () => (
@@ -71,7 +71,7 @@ const photos = [
       />
     ),
     alt: 'Photo 5',
-    fullSrc: '../images/scrybit/scrybit5.png',
+    fullSrc: '/images/scrybit/scrybit5.png',
   },
 ];
 
