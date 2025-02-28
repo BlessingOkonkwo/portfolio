@@ -1,5 +1,5 @@
 ---
-date: '2'
+date: '4'
 title: 'Lyrify'
 cover: './lyrify.png'
 github: 'https://github.com/BlessingOkonkwo/lyrify'

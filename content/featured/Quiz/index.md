@@ -1,5 +1,5 @@
 ---
-date: '1'
+date: '7'
 title: 'Quiz App'
 cover: './demo.png'
 github: 'https://github.com/BlessingOkonkwo/biz-quiz'

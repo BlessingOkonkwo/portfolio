@@ -7,7 +7,11 @@ import { GatsbyImage, getImage } from 'gatsby-plugin-image';
 import styled from 'styled-components';
 import PropTypes from 'prop-types';
 import { Helmet } from 'react-helmet';
+import { srConfig } from '@config';
+import sr from '@utils/sr';
 import { Layout } from '@components';
+import { Icon } from '@components/icons';
+import { usePrefersReducedMotion } from '@hooks';
 
 const GalleryContainer = styled.div`
   display: grid;
@@ -81,22 +85,9 @@ const RightArrow = styled(Arrow)`
 `;
 
 const PhotoGallery = ({ location }) => {
-  // const data = useStaticQuery(graphql`
-  //   query {
-  //     allFile(filter: { relativeDirectory: { regex: "images/scrybit" } }) {
-  //       nodes {
-  //         childImageSharp {
-  //           gatsbyImageData(layout: CONSTRAINED, width: 150, height: 150, placeholder: BLURRED)
-  //         }
-  //         name
-  //       }
-  //     }
-  //   }
-  // `);
-
   const data = useStaticQuery(graphql`
     query {
-      allFile(filter: { absolutePath: { regex: "/content/scrybit/" } }) {
+      allFile(filter: { absolutePath: { regex: "/content/umrah/" } }) {
         nodes {
           childImageSharp {
             gatsbyImageData(layout: CONSTRAINED, placeholder: BLURRED)
@@ -136,18 +127,15 @@ const PhotoGallery = ({ location }) => {
     setCurrentIndex(newIndex);
   };
 
-  console.log(data);
-  console.log(data);
-
   return (
     <Layout location={location}>
-      <Helmet title="Scrybit" />
+      <Helmet title="Umrah" />
 
       <main>
         <header>
-          <h1 className="big-heading">Scrybit</h1>
+          <h1 className="big-heading">UmrahCash</h1>
           <p className="subtitle">
-            Screenshots of the pages of scrybit dashboard application. Tap on an image to expand
+            Screenshots of the pages of UmrahCash Admin dashboard application. Tap on an image to expand
           </p>
         </header>
 

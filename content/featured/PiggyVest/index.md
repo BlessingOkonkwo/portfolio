@@ -1,5 +1,5 @@
 ---
-date: '4'
+date: '6'
 title: 'PiggyVest Clone'
 cover: './piggyvest.png'
 github: 'https://github.com/BlessingOkonkwo/piggyvest-lp'
